@@ -343,7 +343,7 @@ function getLSPInstallCommand(language: string): string {
     java: "Download from https://download.eclipse.org/jdtls/",
     "c++": "Install clangd from https://clangd.llvm.org/installation",
     c: "Install clangd from https://clangd.llvm.org/installation",
-    ruby: "gem install solargraph",
+    ruby: "gem install solargraph or gem install ruby-lsp",
     fsharp: "dotnet tool install --global fsautocomplete",
     moonbit: "moon update && moon install",
   };

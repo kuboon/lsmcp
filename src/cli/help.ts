@@ -42,6 +42,7 @@ Supported Presets:
   fsharp            F#
   moonbit           MoonBit
   deno              Deno (TypeScript/JavaScript)
+  ruby-lsp          Ruby (Shopify Ruby LSP)
 
 Custom LSP Server:
   For languages not in the preset list, use --bin with --files:
@@ -49,7 +50,7 @@ Custom LSP Server:
   lsmcp --bin "clangd" --files "**/*.{c,cpp,h,hpp}"          # C/C++
   lsmcp --bin "jdtls" --files "**/*.java"                    # Java
   lsmcp --bin "lua-language-server" --files "**/*.lua"       # Lua
-  lsmcp --bin "solargraph" --files "**/*.rb"                 # Ruby
+  lsmcp --bin "solargraph" --files "**/*.rb"                 # Ruby (Solargraph)
   lsmcp --bin "haskell-language-server" --files "**/*.hs"    # Haskell
 
 Examples:

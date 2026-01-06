@@ -8,6 +8,7 @@ export const rubyLspAdapter: Preset = {
   presetId: "ruby-lsp",
   name: "Ruby LSP",
   description: "Shopify's Ruby language server",
+  baseLanguage: "ruby",
   binFindStrategy: {
     strategies: [
       // 1. Check global installation

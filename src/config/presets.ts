@@ -16,6 +16,7 @@ import { moonbitAdapter } from "../presets/moonbit.ts";
 import { goplsAdapter } from "../presets/gopls.ts";
 import { hlsAdapter } from "../presets/hls.ts";
 import { ocamlAdapter } from "../presets/ocaml.ts";
+import { rubyLspAdapter } from "../presets/ruby-lsp.ts";
 
 /**
  * Register all built-in adapters to the registry
@@ -32,4 +33,5 @@ export function registerBuiltinAdapters(registry: PresetRegistry): void {
   registry.register(goplsAdapter);
   registry.register(hlsAdapter);
   registry.register(ocamlAdapter);
+  registry.register(rubyLspAdapter);
 }
